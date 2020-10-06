@@ -11,7 +11,7 @@ int main ()
       printf("Not prime number !!!");
       goto loop;
     }else{
-      for(i=1;i<13;i++)
+      for(i=1;i<16;i++)
         printf("%d x %d = %d\n",num,i,num*i);
         goto loop;
     }
